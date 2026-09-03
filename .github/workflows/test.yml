@@ -6,9 +6,9 @@ on:
 jobs:
   example22-job:
     runs-on: ubuntu-latest
-  steps:
-    - name: print a welcome message
-    run: echo "hello khaled"
+    steps:
+      - name: print a welcome message
+      run: echo "hello khaled"
 
 
 
