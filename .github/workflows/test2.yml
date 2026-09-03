@@ -14,4 +14,4 @@ jobs:
       - name: check event
         run: |
           echo "event checked"
-          echo "the event was ${{ github.event_name }}
+          echo "the event was ${{ github.event_name }}"
