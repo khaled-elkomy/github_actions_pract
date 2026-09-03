@@ -1,0 +1,17 @@
+name: work on push or pull req.
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check event
+        run: |
+          echo "event checked"
+          echo "the event was ${{ github.event_name }}
