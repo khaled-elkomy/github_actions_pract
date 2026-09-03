@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print a welcome message
-      run: echo "hello khaled"
+        run: echo "hello khaled"
 
 
 
